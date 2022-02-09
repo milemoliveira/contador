@@ -2,8 +2,8 @@
 
 Aplicativo desenvolvido com **Flutter**, ele realiza o controle de disponibilidade de lugares no estabelecimento de acordo com uma capacidade pré-estabelecida. 
 
-![](/lib/images/count2.png)
-![](/lib/images/count1.png)
+![Print App](/lib/images/count2.PNG)
+![Print App](/lib/images/count1.PNG)
 
 ***
 ## :computer: Sobre o projeto
@@ -13,10 +13,10 @@ Aplicativo introdutório para apresentar os conceitos **básicos** do flutter. E
 ***
 
 ## :bookmark_tabs: Funcionalidades
-:heavy_check_mark: Visualizar o número de pessoas no estabelecimento.
-:heavy_check_mark: Adicionar e remover pessoas.
-:heavy_check_mark: Informar quando houver lugares disponíveis ou estiver lotado.
-:heavy_check_mark: Permitir zerar o contator. 
+* Visualizar o número de pessoas no estabelecimento.
+* Adicionar e remover pessoas.
+* Informar quando houver lugares disponíveis ou estiver lotado.
+* Permitir zerar o contator. 
 
 *** 
 
