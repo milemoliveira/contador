@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -53,8 +52,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: null, 
-        backgroundColor: const Color(0XFF141926),),
+        title: null, backgroundColor: const Color(0XFF141926),),
       backgroundColor: const Color(0XFF1C2130),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -111,7 +109,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: const Color(0XFF028F76),
+                    backgroundColor: isFull ? const Color(0X20028F76)  : const Color(0XFF028F76),
                     fixedSize: const Size(120, 120),
                     primary: const Color(0XFFFFFFFF),
                     shape: RoundedRectangleBorder(
@@ -125,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(width: 70,),
                 TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: const Color(0XFFD14334), 
+                    backgroundColor:  isEmpty ? const Color(0X20D14334) : const Color(0XFFD14334), 
                     fixedSize: const Size(120, 120),
                     primary: const Color(0XFFb3a394),
                     shape: RoundedRectangleBorder(
